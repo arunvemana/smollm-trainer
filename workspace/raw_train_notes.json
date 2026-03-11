@@ -1,0 +1,402 @@
+[
+  {
+    "note": "[file tax documents, https://youtube.com/watch?v=guide456]",
+    "summary": "A task to file tax documents. The note references a video tutorial or resource."
+  },
+  {
+    "note": "[Meeting with HR, Friday 2pm]",
+    "summary": "A scheduled professional meeting with Human Resources on friday 2pm"
+  },
+  {
+    "note": "[Buy bread, milk, eggs]",
+    "summary": "A simple grocery shopping list."
+  },
+  {
+    "note": "[Call plumber for leak in kitchen]",
+    "summary": "A maintenance task to fix a plumbing issue."
+  },
+  {
+    "note": "[Send invoice to Client A]",
+    "summary": "A financial task involving billing a client."
+  },
+  {
+    "note": "[Gym at 6am tomorrow]",
+    "summary": "A personal health and fitness appointment at 6am tomorrow."
+  },
+  {
+    "note": "[Renew car insurance by Monday]",
+    "summary": "A time-sensitive administrative task for vehicle insurance."
+  },
+  {
+    "note": "[Pick up dry cleaning]",
+    "summary": "An errand to collect clothing from the cleaners."
+  },
+  {
+    "note": "[Email professor about extension]",
+    "summary": "An academic task involving communication with an instructor."
+  },
+  {
+    "note": "[Update LinkedIn profile]",
+    "summary": "A professional development task for social media presence."
+  },
+  {
+    "note": "[Water the plants]",
+    "summary": "A simple household maintenance reminder."
+  },
+  {
+    "note": "[Book flight to NYC]",
+    "summary": "A travel planning task for a flight to New York."
+  },
+  {
+    "note": "[Read Chapter 5 of textbook]",
+    "summary": "A study task focused on specific reading material."
+  },
+  {
+    "note": "[Cancel Netflix subscription]",
+    "summary": "A financial task to end a recurring service."
+  },
+  {
+    "note": "[Fix broken shelf in garage]",
+    "summary": "A home repair task for furniture improvement."
+  },
+  {
+    "note": "[Call Mom for her birthday]",
+    "summary": "A personal reminder for a family member's birthday."
+  },
+  {
+    "note": "[Organize digital photos]",
+    "summary": "A digital maintenance task for file organization."
+  },
+  {
+    "note": "[Prepare slides for Monday meeting]",
+    "summary": "A work-related preparation task for a presentation."
+  },
+  {
+    "note": "[Pay electric bill]",
+    "summary": "A recurring financial task for utility payments."
+  },
+  {
+    "note": "[Order pizza for tonight]",
+    "summary": "A simple food procurement task."
+  },
+  {
+    "note": "[https://github.com/trending]",
+    "summary": "A reference link to explore trending software projects on GitHub."
+  },
+  {
+    "note": "[Researching cars: https://tesla.com]",
+    "summary": "A research task focused on electric vehicles using the Tesla website."
+  },
+  {
+    "note": "[Recipe for pasta: https://tasty.co/pasta]",
+    "summary": "A cooking reference link for a pasta recipe."
+  },
+  {
+    "note": "[Article on AI: https://nytimes.com/ai-future]",
+    "summary": "An educational reference to a news article about the future of AI."
+  },
+  {
+    "note": "[Check stock prices: https://finance.yahoo.com]",
+    "summary": "A financial reference link for monitoring market performance."
+  },
+  {
+    "note": "[How to code Python: https://docs.python.org]",
+    "summary": "A technical reference link to the official Python documentation."
+  },
+  {
+    "note": "[Design inspiration: https://behance.net]",
+    "summary": "A creative reference link for design and art inspiration."
+  },
+  {
+    "note": "[Weather forecast: https://weather.com]",
+    "summary": "A link to check current or upcoming local weather conditions."
+  },
+  {
+    "note": "[Learn LoRA training: https://huggingface.co/docs/peft]",
+    "summary": "A technical study link for learning parameter-efficient fine-tuning."
+  },
+  {
+    "note": "[Cheap flights: https://google.com/flights]",
+    "summary": "A travel research link for finding affordable airfare."
+  },
+  {
+    "note": "[Watch this: https://vimeo.com/12345]",
+    "summary": "A note referencing a video for later viewing."
+  },
+  {
+    "note": "[Product link: https://amazon.com/dp/B001]",
+    "summary": "A shopping reference link for a specific product on Amazon."
+  },
+  {
+    "note": "[Documentation: https://react.dev]",
+    "summary": "A technical reference link for React framework documentation."
+  },
+  {
+    "note": "[News update: https://bbc.co.uk]",
+    "summary": "A general reference link to current global news."
+  },
+  {
+    "note": "[Compare laptops: https://rtings.com]",
+    "summary": "A research task focused on electronics reviews and comparisons."
+  },
+  {
+    "note": "[Wikipedia entry: https://en.wikipedia.org/wiki/Earth]",
+    "summary": "An educational reference to a Wikipedia article about Earth."
+  },
+  {
+    "note": "[Map to venue: https://maps.google.com/xyz]",
+    "summary": "A navigational reference link to a specific location."
+  },
+  {
+    "note": "[Download software: https://vscode.download]",
+    "summary": "A technical task involving a software download link."
+  },
+  {
+    "note": "[Check this portfolio: https://johndoe.com]",
+    "summary": "A professional reference link to an individual's portfolio."
+  },
+  {
+    "note": "[Read later: https://medium.com/story1]",
+    "summary": "A general reading task for an article on Medium."
+  },
+  {
+    "note": "[Call]",
+    "summary": "A very brief reminder to make a phone call, recipient unspecified."
+  },
+  {
+    "note": "[Buy]",
+    "summary": "A short reminder to purchase an unnamed item."
+  },
+  {
+    "note": "[Done]",
+    "summary": "A status update indicating a task or project has been completed."
+  },
+  {
+    "note": "[Important!!!]",
+    "summary": "A high-priority alert with no specific context provided."
+  },
+  {
+    "note": "[???]",
+    "summary": "A placeholder or confusing note requiring further clarification."
+  },
+  {
+    "note": "[123456]",
+    "summary": "A numerical note, possibly representing a code, password, or reference number."
+  },
+  {
+    "note": "[Wait for call]",
+    "summary": "A passive task involving anticipation of a phone conversation."
+  },
+  {
+    "note": "[ASAP]",
+    "summary": "A high-priority reminder indicating urgency."
+  },
+  {
+    "note": "[TBD]",
+    "summary": "A placeholder indicating details are yet to be determined."
+  },
+  {
+    "note": "[Draft email...]",
+    "summary": "An incomplete task involving the creation of an email message."
+  },
+  {
+    "note": "[Remember!]",
+    "summary": "A general emphasis marker for memory retention."
+  },
+  {
+    "note": "[Check email]",
+    "summary": "A routine digital task to monitor communications."
+  },
+  {
+    "note": "[Lunch?]",
+    "summary": "A tentative social or food-related inquiry."
+  },
+  {
+    "note": "[Meeting.]",
+    "summary": "A simple notification of a generic meeting event."
+  },
+  {
+    "note": "[Wait.]",
+    "summary": "A simple instruction to pause or delay action."
+  },
+  {
+    "note": "[Test]",
+    "summary": "A note likely used for system testing or verification."
+  },
+  {
+    "note": "[Hello]",
+    "summary": "A generic greeting or test note."
+  },
+  {
+    "note": "[Link: http://a.b]",
+    "summary": "A reference to an extremely short or potentially broken URL."
+  },
+  {
+    "note": "[...]",
+    "summary": "An empty or elliptical note representing a pause or missing data."
+  },
+  {
+    "note": "[!!!!]",
+    "summary": "A purely emotional or urgent emphasis with no text."
+  },
+  {
+    "note": "[Meeting with Dr. Smith @ 10am; bring medical records and ID]",
+    "summary": "A detailed medical appointment with specific preparation requirements."
+  },
+  {
+    "note": "[Groceries: apples, bananas, coffee, milk, bread, butter, eggs]",
+    "summary": "A comprehensive list of multiple items for grocery shopping."
+  },
+  {
+    "note": "[Project Deadline: Mar 15. Submit via Portal. https://uni.edu/submit]",
+    "summary": "A critical academic deadline with specific submission instructions and a link."
+  },
+  {
+    "note": "[Vacation Checklist: passport, tickets, sunscreen, camera, chargers]",
+    "summary": "A multi-item preparation list for upcoming travel."
+  },
+  {
+    "note": "[Research AI: check OpenAI, Anthropic, and Google. https://openai.com]",
+    "summary": "A broad research task covering multiple entities with a reference link."
+  },
+  {
+    "note": "[Dinner at 7. RSVP by 4pm. Call Sarah.]",
+    "summary": "A social event with multiple action items (RSVP and a call)."
+  },
+  {
+    "note": "[Update software (Windows, Mac, and Linux) and check security settings]",
+    "summary": "A technical maintenance task for multiple operating systems."
+  },
+  {
+    "note": "[Buy birthday gift for Tim (Budget $50). https://amazon.com/gifts]",
+    "summary": "A shopping task with a specific budget and a reference link."
+  },
+  {
+    "note": "[Workout: 30m run, 15m weights, stretching]",
+    "summary": "A structured fitness routine with specific time allocations."
+  },
+  {
+    "note": "[Read 'Atomic Habits' - finish by Sunday. https://jamesclear.com]",
+    "summary": "A reading goal with a specific deadline and author website."
+  },
+  {
+    "note": "[Fix car: oil change, tire rotation, check brakes]",
+    "summary": "A detailed vehicle maintenance task with multiple sub-items."
+  },
+  {
+    "note": "[Pack for camping: tent, sleeping bag, stove, water, map]",
+    "summary": "A comprehensive gear list for an outdoor camping trip."
+  },
+  {
+    "note": "[Job Hunt: update resume, apply to 5 jobs, email recruiters]",
+    "summary": "A professional development task with multiple measurable goals."
+  },
+  {
+    "note": "[Study for exam: Review notes, do practice problems, watch YouTube tutorials]",
+    "summary": "A multi-step academic preparation task for an upcoming test."
+  },
+  {
+    "note": "[Clean house: vacuum, dust, laundry, dishes]",
+    "summary": "A comprehensive household chore list with multiple tasks."
+  },
+  {
+    "note": "[New laptop: check Mac, Dell, Lenovo. Compare prices at Best Buy]",
+    "summary": "A shopping research task comparing multiple brands and retailers."
+  },
+  {
+    "note": "[Plan party: invites, food, music, decorations. Budget $200]",
+    "summary": "A complex event planning task with specific components and a budget."
+  },
+  {
+    "note": "[Blog post: write draft, find images, post to WordPress. https://wordpress.com]",
+    "summary": "A content creation task with multiple steps and a platform link."
+  },
+  {
+    "note": "[Garden work: plant seeds, weed, water. https://garden.com/tips]",
+    "summary": "An outdoor maintenance task with specific steps and a tutorial link."
+  },
+  {
+    "note": "[Dog care: walk, feed, vet appointment at 3pm]",
+    "summary": "A pet care routine including a specific timed appointment."
+  },
+  {
+    "note": "[git commit -m 'initial commit']",
+    "summary": "A technical note recording a software version control command."
+  },
+  {
+    "note": "[ssh user@192.168.1.1]",
+    "summary": "A technical note containing a remote server access command."
+  },
+  {
+    "note": "[pip install transformers peft]",
+    "summary": "A technical note for installing specific Python libraries."
+  },
+  {
+    "note": "[docker-compose up -d]",
+    "summary": "A technical note for starting a containerized application in the background."
+  },
+  {
+    "note": "[console.log('debug point 1')]",
+    "summary": "A technical snippet used for debugging code."
+  },
+  {
+    "note": "[SELECT * FROM users;]",
+    "summary": "A technical note containing a database query command."
+  },
+  {
+    "note": "[npm run build]",
+    "summary": "A technical note for executing a software build script."
+  },
+  {
+    "note": "[chmod +x script.sh]",
+    "summary": "A technical note for changing file permissions to executable."
+  },
+  {
+    "note": "[Review PR #123 on GitHub]",
+    "summary": "A collaborative technical task involving code review."
+  },
+  {
+    "note": "[Fix CSS on mobile: https://mysite.com]",
+    "summary": "A technical web development task for mobile optimization."
+  },
+  {
+    "note": "[Deploy to AWS at midnight]",
+    "summary": "A time-sensitive technical task for server deployment."
+  },
+  {
+    "note": "[Update firmware on router]",
+    "summary": "A technical maintenance task for networking hardware."
+  },
+  {
+    "note": "[Check logs for error 500]",
+    "summary": "A technical troubleshooting task to investigate a server error."
+  },
+  {
+    "note": "[Backup database to S3 bucket]",
+    "summary": "A critical technical task for data preservation."
+  },
+  {
+    "note": "[Reboot server if it lags]",
+    "summary": "A conditional technical instruction for server management."
+  },
+  {
+    "note": "[Setup SSL certificate: https://letsencrypt.org]",
+    "summary": "A technical task for securing a website with a reference link."
+  },
+  {
+    "note": "[Refactor main.py for efficiency]",
+    "summary": "A technical task to improve the quality of specific source code."
+  },
+  {
+    "note": "[Install Linux on old laptop]",
+    "summary": "A technical task involving operating system installation."
+  },
+  {
+    "note": "[Fix bug in login logic]",
+    "summary": "A technical task to resolve an issue with user authentication."
+  },
+  {
+    "note": "[Check API documentation: https://api.docs.com]",
+    "summary": "A technical reference task to review interface specifications."
+  }
+]
