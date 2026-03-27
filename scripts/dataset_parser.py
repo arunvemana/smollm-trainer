@@ -67,7 +67,7 @@ def process_raw_data(filename: str = "raw_train_notes.json"):
     if check_consistency(v_raw_data):
         formatted_lines: list = []
         for item in v_raw_data:
-            f_text: str = f"### NOTE: {item['note']} ### SUMMARY: {item['summary']}"
+            f_text: str = f"### NOTE: {item['note']} ### SUMMARY: {item['summary']}<|endoftext|>"
             formatted_lines.append(f_text)
         split_and_save(formatted_lines)
 
