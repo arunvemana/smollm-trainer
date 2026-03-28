@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Tuple, Optional
 
 
-def download_models(model_id:str, local_path:Path) -> Optional[Tuple[PreTrainedModel,PreTrainedTokenizerBase]]:
+def download_models(model_id:str, local_path:Path) -> Tuple[PreTrainedModel | None ,PreTrainedTokenizerBase | None]:
     local_path.mkdir(parents=True, exist_ok=True) # checking local_dir exist or not
     try:
         print(f"Downloading the {model_id}")
@@ -20,7 +20,7 @@ def download_models(model_id:str, local_path:Path) -> Optional[Tuple[PreTrainedM
         return model, tokenizer
     except Exception as e:
         print(f"Failed to download model:{e}")
-        return None
+        return None, None
 
 if  __name__ == "__main__":
     model_id = "HuggingFaceTB/SmolLM-135M"
