@@ -3,7 +3,8 @@ import random
 from pathlib import Path
 from typing import TypedDict
 from pydantic import TypeAdapter, ValidationError
-
+from rich.table import Table
+from rich.console import Console
 
 class RawData(TypedDict):
     note: str
@@ -86,7 +87,18 @@ def process_raw_data(filename: str = "raw_train_notes.json"):
             f_text: str = f"### NOTE: {item['note']} ### SUMMARY: {item['summary']}<|endoftext|>"
             formatted_lines.append(f_text)
         split_and_save(formatted_lines)
-
-
+        # calulate the max length to reduce memory for training as per data length
+        lengths = [len(text.split()) for text in formatted_lines]
+        lengths.sort()
+        perc_50 = lengths[len(lengths)//2]
+        perc_95 = lengths[int(len(lengths) * 0.95)]
+        table = Table(title="Stats for word length (~token)")
+        table.add_column(header="info",style="cyan")
+        table.add_column(header="value",style="cyan")
+        table.add_row("Median 50 percentage",f"{perc_50} words")
+        table.add_row("At 95 percentage",f"{perc_95} words")
+        table.add_row("max length is",f"{lengths[-1]} words")
+        table.add_row("recommed MAX_LENGTH for fine-tune",f"{min(perc_95 *2,256)}")
+        Console().print(table)
 if __name__ == "__main__":
     process_raw_data()
