@@ -1,10 +1,10 @@
-"### NOTE: [Call] ### SUMMARY: A very brief reminder to make a phone call, recipient unspecified.<|endoftext|>"
-"### NOTE: [Meeting with Dr. Smith @ 10am; bring medical records and ID] ### SUMMARY: A detailed medical appointment with specific preparation requirements.<|endoftext|>"
-"### NOTE: [Groceries: apples, bananas, coffee, milk, bread, butter, eggs] ### SUMMARY: A comprehensive list of multiple items for grocery shopping.<|endoftext|>"
-"### NOTE: [Read Chapter 5 of textbook] ### SUMMARY: A study task focused on specific reading material.<|endoftext|>"
-"### NOTE: [Fix car: oil change, tire rotation, check brakes] ### SUMMARY: A detailed vehicle maintenance task with multiple sub-items.<|endoftext|>"
-"### NOTE: [Fix broken shelf in garage] ### SUMMARY: A home repair task for furniture improvement.<|endoftext|>"
-"### NOTE: [News update: https://bbc.co.uk] ### SUMMARY: A general reference link to current global news.<|endoftext|>"
-"### NOTE: [Setup SSL certificate: https://letsencrypt.org] ### SUMMARY: A technical task for securing a website with a reference link.<|endoftext|>"
-"### NOTE: [!!!!] ### SUMMARY: A purely emotional or urgent emphasis with no text.<|endoftext|>"
-"### NOTE: [Blog post: write draft, find images, post to WordPress. https://wordpress.com] ### SUMMARY: A content creation task with multiple steps and a platform link.<|endoftext|>"
+{"text": "### NOTE: [Design inspiration: https://behance.net] ### SUMMARY: A creative reference link for design and art inspiration.<|endoftext|>"}
+{"text": "### NOTE: [Backup database to S3 bucket] ### SUMMARY: A critical technical task for data preservation.<|endoftext|>"}
+{"text": "### NOTE: [ssh user@192.168.1.1] ### SUMMARY: A technical note containing a remote server access command.<|endoftext|>"}
+{"text": "### NOTE: [SELECT * FROM users;] ### SUMMARY: A technical note containing a database query command.<|endoftext|>"}
+{"text": "### NOTE: [Map to venue: https://maps.google.com/xyz] ### SUMMARY: A navigational reference link to a specific location.<|endoftext|>"}
+{"text": "### NOTE: [Product link: https://amazon.com/dp/B001] ### SUMMARY: A shopping reference link for a specific product on Amazon.<|endoftext|>"}
+{"text": "### NOTE: [Send invoice to Client A] ### SUMMARY: A financial task involving billing a client.<|endoftext|>"}
+{"text": "### NOTE: [Buy birthday gift for Tim (Budget $50). https://amazon.com/gifts] ### SUMMARY: A shopping task with a specific budget and a reference link.<|endoftext|>"}
+{"text": "### NOTE: [Clean house: vacuum, dust, laundry, dishes] ### SUMMARY: A comprehensive household chore list with multiple tasks.<|endoftext|>"}
+{"text": "### NOTE: [...] ### SUMMARY: An empty or elliptical note representing a pause or missing data.<|endoftext|>"}

@@ -1,90 +1,90 @@
-"### NOTE: [Pick up dry cleaning] ### SUMMARY: An errand to collect clothing from the cleaners.<|endoftext|>"
-"### NOTE: [Compare laptops: https://rtings.com] ### SUMMARY: A research task focused on electronics reviews and comparisons.<|endoftext|>"
-"### NOTE: [...] ### SUMMARY: An empty or elliptical note representing a pause or missing data.<|endoftext|>"
-"### NOTE: [Cheap flights: https://google.com/flights] ### SUMMARY: A travel research link for finding affordable airfare.<|endoftext|>"
-"### NOTE: [Project Deadline: Mar 15. Submit via Portal. https://uni.edu/submit] ### SUMMARY: A critical academic deadline with specific submission instructions and a link.<|endoftext|>"
-"### NOTE: [Wait for call] ### SUMMARY: A passive task involving anticipation of a phone conversation.<|endoftext|>"
-"### NOTE: [Read later: https://medium.com/story1] ### SUMMARY: A general reading task for an article on Medium.<|endoftext|>"
-"### NOTE: [Check logs for error 500] ### SUMMARY: A technical troubleshooting task to investigate a server error.<|endoftext|>"
-"### NOTE: [npm run build] ### SUMMARY: A technical note for executing a software build script.<|endoftext|>"
-"### NOTE: [Watch this: https://vimeo.com/12345] ### SUMMARY: A note referencing a video for later viewing.<|endoftext|>"
-"### NOTE: [Fix bug in login logic] ### SUMMARY: A technical task to resolve an issue with user authentication.<|endoftext|>"
-"### NOTE: [Researching cars: https://tesla.com] ### SUMMARY: A research task focused on electric vehicles using the Tesla website.<|endoftext|>"
-"### NOTE: [chmod +x script.sh] ### SUMMARY: A technical note for changing file permissions to executable.<|endoftext|>"
-"### NOTE: [Article on AI: https://nytimes.com/ai-future] ### SUMMARY: An educational reference to a news article about the future of AI.<|endoftext|>"
-"### NOTE: [Research AI: check OpenAI, Anthropic, and Google. https://openai.com] ### SUMMARY: A broad research task covering multiple entities with a reference link.<|endoftext|>"
-"### NOTE: [Wikipedia entry: https://en.wikipedia.org/wiki/Earth] ### SUMMARY: An educational reference to a Wikipedia article about Earth.<|endoftext|>"
-"### NOTE: [Install Linux on old laptop] ### SUMMARY: A technical task involving operating system installation.<|endoftext|>"
-"### NOTE: [Study for exam: Review notes, do practice problems, watch YouTube tutorials] ### SUMMARY: A multi-step academic preparation task for an upcoming test.<|endoftext|>"
-"### NOTE: [Done] ### SUMMARY: A status update indicating a task or project has been completed.<|endoftext|>"
-"### NOTE: [Send invoice to Client A] ### SUMMARY: A financial task involving billing a client.<|endoftext|>"
-"### NOTE: [ASAP] ### SUMMARY: A high-priority reminder indicating urgency.<|endoftext|>"
-"### NOTE: [Job Hunt: update resume, apply to 5 jobs, email recruiters] ### SUMMARY: A professional development task with multiple measurable goals.<|endoftext|>"
-"### NOTE: [ssh user@192.168.1.1] ### SUMMARY: A technical note containing a remote server access command.<|endoftext|>"
-"### NOTE: [Email professor about extension] ### SUMMARY: An academic task involving communication with an instructor.<|endoftext|>"
-"### NOTE: [Prepare slides for Monday meeting] ### SUMMARY: A work-related preparation task for a presentation.<|endoftext|>"
-"### NOTE: [Check API documentation: https://api.docs.com] ### SUMMARY: A technical reference task to review interface specifications.<|endoftext|>"
-"### NOTE: [file tax documents, https://youtube.com/watch?v=guide456] ### SUMMARY: A task to file tax documents. The note references a video tutorial or resource.<|endoftext|>"
-"### NOTE: [Documentation: https://react.dev] ### SUMMARY: A technical reference link for React framework documentation.<|endoftext|>"
-"### NOTE: [docker-compose up -d] ### SUMMARY: A technical note for starting a containerized application in the background.<|endoftext|>"
-"### NOTE: [Product link: https://amazon.com/dp/B001] ### SUMMARY: A shopping reference link for a specific product on Amazon.<|endoftext|>"
-"### NOTE: [Update software (Windows, Mac, and Linux) and check security settings] ### SUMMARY: A technical maintenance task for multiple operating systems.<|endoftext|>"
-"### NOTE: [Workout: 30m run, 15m weights, stretching] ### SUMMARY: A structured fitness routine with specific time allocations.<|endoftext|>"
-"### NOTE: [Meeting with HR, Friday 2pm] ### SUMMARY: A scheduled professional meeting with Human Resources on friday 2pm<|endoftext|>"
-"### NOTE: [Map to venue: https://maps.google.com/xyz] ### SUMMARY: A navigational reference link to a specific location.<|endoftext|>"
-"### NOTE: [Reboot server if it lags] ### SUMMARY: A conditional technical instruction for server management.<|endoftext|>"
-"### NOTE: [Gym at 6am tomorrow] ### SUMMARY: A personal health and fitness appointment at 6am tomorrow.<|endoftext|>"
-"### NOTE: [Hello] ### SUMMARY: A generic greeting or test note.<|endoftext|>"
-"### NOTE: [Lunch?] ### SUMMARY: A tentative social or food-related inquiry.<|endoftext|>"
-"### NOTE: [SELECT * FROM users;] ### SUMMARY: A technical note containing a database query command.<|endoftext|>"
-"### NOTE: [Buy birthday gift for Tim (Budget $50). https://amazon.com/gifts] ### SUMMARY: A shopping task with a specific budget and a reference link.<|endoftext|>"
-"### NOTE: [Call Mom for her birthday] ### SUMMARY: A personal reminder for a family member's birthday.<|endoftext|>"
-"### NOTE: [Backup database to S3 bucket] ### SUMMARY: A critical technical task for data preservation.<|endoftext|>"
-"### NOTE: [Buy bread, milk, eggs] ### SUMMARY: A simple grocery shopping list.<|endoftext|>"
-"### NOTE: [Update LinkedIn profile] ### SUMMARY: A professional development task for social media presence.<|endoftext|>"
-"### NOTE: [Fix CSS on mobile: https://mysite.com] ### SUMMARY: A technical web development task for mobile optimization.<|endoftext|>"
-"### NOTE: [Pack for camping: tent, sleeping bag, stove, water, map] ### SUMMARY: A comprehensive gear list for an outdoor camping trip.<|endoftext|>"
-"### NOTE: [Dinner at 7. RSVP by 4pm. Call Sarah.] ### SUMMARY: A social event with multiple action items (RSVP and a call).<|endoftext|>"
-"### NOTE: [Review PR #123 on GitHub] ### SUMMARY: A collaborative technical task involving code review.<|endoftext|>"
-"### NOTE: [https://github.com/trending] ### SUMMARY: A reference link to explore trending software projects on GitHub.<|endoftext|>"
-"### NOTE: [Call plumber for leak in kitchen] ### SUMMARY: A maintenance task to fix a plumbing issue.<|endoftext|>"
-"### NOTE: [Draft email...] ### SUMMARY: An incomplete task involving the creation of an email message.<|endoftext|>"
-"### NOTE: [Download software: https://vscode.download] ### SUMMARY: A technical task involving a software download link.<|endoftext|>"
-"### NOTE: [Important!!!] ### SUMMARY: A high-priority alert with no specific context provided.<|endoftext|>"
-"### NOTE: [Link: http://a.b] ### SUMMARY: A reference to an extremely short or potentially broken URL.<|endoftext|>"
-"### NOTE: [TBD] ### SUMMARY: A placeholder indicating details are yet to be determined.<|endoftext|>"
-"### NOTE: [Vacation Checklist: passport, tickets, sunscreen, camera, chargers] ### SUMMARY: A multi-item preparation list for upcoming travel.<|endoftext|>"
-"### NOTE: [Wait.] ### SUMMARY: A simple instruction to pause or delay action.<|endoftext|>"
-"### NOTE: [Learn LoRA training: https://huggingface.co/docs/peft] ### SUMMARY: A technical study link for learning parameter-efficient fine-tuning.<|endoftext|>"
-"### NOTE: [pip install transformers peft] ### SUMMARY: A technical note for installing specific Python libraries.<|endoftext|>"
-"### NOTE: [How to code Python: https://docs.python.org] ### SUMMARY: A technical reference link to the official Python documentation.<|endoftext|>"
-"### NOTE: [New laptop: check Mac, Dell, Lenovo. Compare prices at Best Buy] ### SUMMARY: A shopping research task comparing multiple brands and retailers.<|endoftext|>"
-"### NOTE: [Deploy to AWS at midnight] ### SUMMARY: A time-sensitive technical task for server deployment.<|endoftext|>"
-"### NOTE: [Organize digital photos] ### SUMMARY: A digital maintenance task for file organization.<|endoftext|>"
-"### NOTE: [Check this portfolio: https://johndoe.com] ### SUMMARY: A professional reference link to an individual's portfolio.<|endoftext|>"
-"### NOTE: [Design inspiration: https://behance.net] ### SUMMARY: A creative reference link for design and art inspiration.<|endoftext|>"
-"### NOTE: [Cancel Netflix subscription] ### SUMMARY: A financial task to end a recurring service.<|endoftext|>"
-"### NOTE: [Refactor main.py for efficiency] ### SUMMARY: A technical task to improve the quality of specific source code.<|endoftext|>"
-"### NOTE: [Plan party: invites, food, music, decorations. Budget $200] ### SUMMARY: A complex event planning task with specific components and a budget.<|endoftext|>"
-"### NOTE: [console.log('debug point 1')] ### SUMMARY: A technical snippet used for debugging code.<|endoftext|>"
-"### NOTE: [Test] ### SUMMARY: A note likely used for system testing or verification.<|endoftext|>"
-"### NOTE: [Check email] ### SUMMARY: A routine digital task to monitor communications.<|endoftext|>"
-"### NOTE: [Update firmware on router] ### SUMMARY: A technical maintenance task for networking hardware.<|endoftext|>"
-"### NOTE: [Weather forecast: https://weather.com] ### SUMMARY: A link to check current or upcoming local weather conditions.<|endoftext|>"
-"### NOTE: [Order pizza for tonight] ### SUMMARY: A simple food procurement task.<|endoftext|>"
-"### NOTE: [Buy] ### SUMMARY: A short reminder to purchase an unnamed item.<|endoftext|>"
-"### NOTE: [Dog care: walk, feed, vet appointment at 3pm] ### SUMMARY: A pet care routine including a specific timed appointment.<|endoftext|>"
-"### NOTE: [Meeting.] ### SUMMARY: A simple notification of a generic meeting event.<|endoftext|>"
-"### NOTE: [git commit -m 'initial commit'] ### SUMMARY: A technical note recording a software version control command.<|endoftext|>"
-"### NOTE: [Book flight to NYC] ### SUMMARY: A travel planning task for a flight to New York.<|endoftext|>"
-"### NOTE: [Check stock prices: https://finance.yahoo.com] ### SUMMARY: A financial reference link for monitoring market performance.<|endoftext|>"
-"### NOTE: [???] ### SUMMARY: A placeholder or confusing note requiring further clarification.<|endoftext|>"
-"### NOTE: [Remember!] ### SUMMARY: A general emphasis marker for memory retention.<|endoftext|>"
-"### NOTE: [123456] ### SUMMARY: A numerical note, possibly representing a code, password, or reference number.<|endoftext|>"
-"### NOTE: [Read 'Atomic Habits' - finish by Sunday. https://jamesclear.com] ### SUMMARY: A reading goal with a specific deadline and author website.<|endoftext|>"
-"### NOTE: [Pay electric bill] ### SUMMARY: A recurring financial task for utility payments.<|endoftext|>"
-"### NOTE: [Recipe for pasta: https://tasty.co/pasta] ### SUMMARY: A cooking reference link for a pasta recipe.<|endoftext|>"
-"### NOTE: [Water the plants] ### SUMMARY: A simple household maintenance reminder.<|endoftext|>"
-"### NOTE: [Renew car insurance by Monday] ### SUMMARY: A time-sensitive administrative task for vehicle insurance.<|endoftext|>"
-"### NOTE: [Garden work: plant seeds, weed, water. https://garden.com/tips] ### SUMMARY: An outdoor maintenance task with specific steps and a tutorial link.<|endoftext|>"
-"### NOTE: [Clean house: vacuum, dust, laundry, dishes] ### SUMMARY: A comprehensive household chore list with multiple tasks.<|endoftext|>"
+{"text": "### NOTE: [Email professor about extension] ### SUMMARY: An academic task involving communication with an instructor.<|endoftext|>"}
+{"text": "### NOTE: [Learn LoRA training: https://huggingface.co/docs/peft] ### SUMMARY: A technical study link for learning parameter-efficient fine-tuning.<|endoftext|>"}
+{"text": "### NOTE: [Researching cars: https://tesla.com] ### SUMMARY: A research task focused on electric vehicles using the Tesla website.<|endoftext|>"}
+{"text": "### NOTE: [docker-compose up -d] ### SUMMARY: A technical note for starting a containerized application in the background.<|endoftext|>"}
+{"text": "### NOTE: [Check stock prices: https://finance.yahoo.com] ### SUMMARY: A financial reference link for monitoring market performance.<|endoftext|>"}
+{"text": "### NOTE: [Wait.] ### SUMMARY: A simple instruction to pause or delay action.<|endoftext|>"}
+{"text": "### NOTE: [TBD] ### SUMMARY: A placeholder indicating details are yet to be determined.<|endoftext|>"}
+{"text": "### NOTE: [Blog post: write draft, find images, post to WordPress. https://wordpress.com] ### SUMMARY: A content creation task with multiple steps and a platform link.<|endoftext|>"}
+{"text": "### NOTE: [Article on AI: https://nytimes.com/ai-future] ### SUMMARY: An educational reference to a news article about the future of AI.<|endoftext|>"}
+{"text": "### NOTE: [Study for exam: Review notes, do practice problems, watch YouTube tutorials] ### SUMMARY: A multi-step academic preparation task for an upcoming test.<|endoftext|>"}
+{"text": "### NOTE: [Check logs for error 500] ### SUMMARY: A technical troubleshooting task to investigate a server error.<|endoftext|>"}
+{"text": "### NOTE: [chmod +x script.sh] ### SUMMARY: A technical note for changing file permissions to executable.<|endoftext|>"}
+{"text": "### NOTE: [Fix bug in login logic] ### SUMMARY: A technical task to resolve an issue with user authentication.<|endoftext|>"}
+{"text": "### NOTE: [Book flight to NYC] ### SUMMARY: A travel planning task for a flight to New York.<|endoftext|>"}
+{"text": "### NOTE: [git commit -m 'initial commit'] ### SUMMARY: A technical note recording a software version control command.<|endoftext|>"}
+{"text": "### NOTE: [Update firmware on router] ### SUMMARY: A technical maintenance task for networking hardware.<|endoftext|>"}
+{"text": "### NOTE: [Deploy to AWS at midnight] ### SUMMARY: A time-sensitive technical task for server deployment.<|endoftext|>"}
+{"text": "### NOTE: [Fix car: oil change, tire rotation, check brakes] ### SUMMARY: A detailed vehicle maintenance task with multiple sub-items.<|endoftext|>"}
+{"text": "### NOTE: [Reboot server if it lags] ### SUMMARY: A conditional technical instruction for server management.<|endoftext|>"}
+{"text": "### NOTE: [ASAP] ### SUMMARY: A high-priority reminder indicating urgency.<|endoftext|>"}
+{"text": "### NOTE: [Meeting with HR, Friday 2pm] ### SUMMARY: A scheduled professional meeting with Human Resources on friday 2pm<|endoftext|>"}
+{"text": "### NOTE: [Buy bread, milk, eggs] ### SUMMARY: A simple grocery shopping list.<|endoftext|>"}
+{"text": "### NOTE: [Pack for camping: tent, sleeping bag, stove, water, map] ### SUMMARY: A comprehensive gear list for an outdoor camping trip.<|endoftext|>"}
+{"text": "### NOTE: [npm run build] ### SUMMARY: A technical note for executing a software build script.<|endoftext|>"}
+{"text": "### NOTE: [Prepare slides for Monday meeting] ### SUMMARY: A work-related preparation task for a presentation.<|endoftext|>"}
+{"text": "### NOTE: [Update LinkedIn profile] ### SUMMARY: A professional development task for social media presence.<|endoftext|>"}
+{"text": "### NOTE: [New laptop: check Mac, Dell, Lenovo. Compare prices at Best Buy] ### SUMMARY: A shopping research task comparing multiple brands and retailers.<|endoftext|>"}
+{"text": "### NOTE: [Important!!!] ### SUMMARY: A high-priority alert with no specific context provided.<|endoftext|>"}
+{"text": "### NOTE: [Wait for call] ### SUMMARY: A passive task involving anticipation of a phone conversation.<|endoftext|>"}
+{"text": "### NOTE: [Draft email...] ### SUMMARY: An incomplete task involving the creation of an email message.<|endoftext|>"}
+{"text": "### NOTE: [https://github.com/trending] ### SUMMARY: A reference link to explore trending software projects on GitHub.<|endoftext|>"}
+{"text": "### NOTE: [Watch this: https://vimeo.com/12345] ### SUMMARY: A note referencing a video for later viewing.<|endoftext|>"}
+{"text": "### NOTE: [console.log('debug point 1')] ### SUMMARY: A technical snippet used for debugging code.<|endoftext|>"}
+{"text": "### NOTE: [Compare laptops: https://rtings.com] ### SUMMARY: A research task focused on electronics reviews and comparisons.<|endoftext|>"}
+{"text": "### NOTE: [Read later: https://medium.com/story1] ### SUMMARY: A general reading task for an article on Medium.<|endoftext|>"}
+{"text": "### NOTE: [Call Mom for her birthday] ### SUMMARY: A personal reminder for a family member's birthday.<|endoftext|>"}
+{"text": "### NOTE: [Read 'Atomic Habits' - finish by Sunday. https://jamesclear.com] ### SUMMARY: A reading goal with a specific deadline and author website.<|endoftext|>"}
+{"text": "### NOTE: [pip install transformers peft] ### SUMMARY: A technical note for installing specific Python libraries.<|endoftext|>"}
+{"text": "### NOTE: [!!!!] ### SUMMARY: A purely emotional or urgent emphasis with no text.<|endoftext|>"}
+{"text": "### NOTE: [Test] ### SUMMARY: A note likely used for system testing or verification.<|endoftext|>"}
+{"text": "### NOTE: [Gym at 6am tomorrow] ### SUMMARY: A personal health and fitness appointment at 6am tomorrow.<|endoftext|>"}
+{"text": "### NOTE: [file tax documents, https://youtube.com/watch?v=guide456] ### SUMMARY: A task to file tax documents. The note references a video tutorial or resource.<|endoftext|>"}
+{"text": "### NOTE: [123456] ### SUMMARY: A numerical note, possibly representing a code, password, or reference number.<|endoftext|>"}
+{"text": "### NOTE: [Check this portfolio: https://johndoe.com] ### SUMMARY: A professional reference link to an individual's portfolio.<|endoftext|>"}
+{"text": "### NOTE: [Check email] ### SUMMARY: A routine digital task to monitor communications.<|endoftext|>"}
+{"text": "### NOTE: [Link: http://a.b] ### SUMMARY: A reference to an extremely short or potentially broken URL.<|endoftext|>"}
+{"text": "### NOTE: [Meeting.] ### SUMMARY: A simple notification of a generic meeting event.<|endoftext|>"}
+{"text": "### NOTE: [Refactor main.py for efficiency] ### SUMMARY: A technical task to improve the quality of specific source code.<|endoftext|>"}
+{"text": "### NOTE: [Meeting with Dr. Smith @ 10am; bring medical records and ID] ### SUMMARY: A detailed medical appointment with specific preparation requirements.<|endoftext|>"}
+{"text": "### NOTE: [Weather forecast: https://weather.com] ### SUMMARY: A link to check current or upcoming local weather conditions.<|endoftext|>"}
+{"text": "### NOTE: [Setup SSL certificate: https://letsencrypt.org] ### SUMMARY: A technical task for securing a website with a reference link.<|endoftext|>"}
+{"text": "### NOTE: [Cancel Netflix subscription] ### SUMMARY: A financial task to end a recurring service.<|endoftext|>"}
+{"text": "### NOTE: [Download software: https://vscode.download] ### SUMMARY: A technical task involving a software download link.<|endoftext|>"}
+{"text": "### NOTE: [Groceries: apples, bananas, coffee, milk, bread, butter, eggs] ### SUMMARY: A comprehensive list of multiple items for grocery shopping.<|endoftext|>"}
+{"text": "### NOTE: [Remember!] ### SUMMARY: A general emphasis marker for memory retention.<|endoftext|>"}
+{"text": "### NOTE: [Research AI: check OpenAI, Anthropic, and Google. https://openai.com] ### SUMMARY: A broad research task covering multiple entities with a reference link.<|endoftext|>"}
+{"text": "### NOTE: [Job Hunt: update resume, apply to 5 jobs, email recruiters] ### SUMMARY: A professional development task with multiple measurable goals.<|endoftext|>"}
+{"text": "### NOTE: [Workout: 30m run, 15m weights, stretching] ### SUMMARY: A structured fitness routine with specific time allocations.<|endoftext|>"}
+{"text": "### NOTE: [Review PR #123 on GitHub] ### SUMMARY: A collaborative technical task involving code review.<|endoftext|>"}
+{"text": "### NOTE: [Project Deadline: Mar 15. Submit via Portal. https://uni.edu/submit] ### SUMMARY: A critical academic deadline with specific submission instructions and a link.<|endoftext|>"}
+{"text": "### NOTE: [News update: https://bbc.co.uk] ### SUMMARY: A general reference link to current global news.<|endoftext|>"}
+{"text": "### NOTE: [Water the plants] ### SUMMARY: A simple household maintenance reminder.<|endoftext|>"}
+{"text": "### NOTE: [Vacation Checklist: passport, tickets, sunscreen, camera, chargers] ### SUMMARY: A multi-item preparation list for upcoming travel.<|endoftext|>"}
+{"text": "### NOTE: [Order pizza for tonight] ### SUMMARY: A simple food procurement task.<|endoftext|>"}
+{"text": "### NOTE: [Cheap flights: https://google.com/flights] ### SUMMARY: A travel research link for finding affordable airfare.<|endoftext|>"}
+{"text": "### NOTE: [Done] ### SUMMARY: A status update indicating a task or project has been completed.<|endoftext|>"}
+{"text": "### NOTE: [Plan party: invites, food, music, decorations. Budget $200] ### SUMMARY: A complex event planning task with specific components and a budget.<|endoftext|>"}
+{"text": "### NOTE: [Garden work: plant seeds, weed, water. https://garden.com/tips] ### SUMMARY: An outdoor maintenance task with specific steps and a tutorial link.<|endoftext|>"}
+{"text": "### NOTE: [Lunch?] ### SUMMARY: A tentative social or food-related inquiry.<|endoftext|>"}
+{"text": "### NOTE: [Read Chapter 5 of textbook] ### SUMMARY: A study task focused on specific reading material.<|endoftext|>"}
+{"text": "### NOTE: [Update software (Windows, Mac, and Linux) and check security settings] ### SUMMARY: A technical maintenance task for multiple operating systems.<|endoftext|>"}
+{"text": "### NOTE: [Dinner at 7. RSVP by 4pm. Call Sarah.] ### SUMMARY: A social event with multiple action items (RSVP and a call).<|endoftext|>"}
+{"text": "### NOTE: [Pay electric bill] ### SUMMARY: A recurring financial task for utility payments.<|endoftext|>"}
+{"text": "### NOTE: [Buy] ### SUMMARY: A short reminder to purchase an unnamed item.<|endoftext|>"}
+{"text": "### NOTE: [Documentation: https://react.dev] ### SUMMARY: A technical reference link for React framework documentation.<|endoftext|>"}
+{"text": "### NOTE: [Fix broken shelf in garage] ### SUMMARY: A home repair task for furniture improvement.<|endoftext|>"}
+{"text": "### NOTE: [Call] ### SUMMARY: A very brief reminder to make a phone call, recipient unspecified.<|endoftext|>"}
+{"text": "### NOTE: [Recipe for pasta: https://tasty.co/pasta] ### SUMMARY: A cooking reference link for a pasta recipe.<|endoftext|>"}
+{"text": "### NOTE: [Renew car insurance by Monday] ### SUMMARY: A time-sensitive administrative task for vehicle insurance.<|endoftext|>"}
+{"text": "### NOTE: [Check API documentation: https://api.docs.com] ### SUMMARY: A technical reference task to review interface specifications.<|endoftext|>"}
+{"text": "### NOTE: [Dog care: walk, feed, vet appointment at 3pm] ### SUMMARY: A pet care routine including a specific timed appointment.<|endoftext|>"}
+{"text": "### NOTE: [How to code Python: https://docs.python.org] ### SUMMARY: A technical reference link to the official Python documentation.<|endoftext|>"}
+{"text": "### NOTE: [Pick up dry cleaning] ### SUMMARY: An errand to collect clothing from the cleaners.<|endoftext|>"}
+{"text": "### NOTE: [Fix CSS on mobile: https://mysite.com] ### SUMMARY: A technical web development task for mobile optimization.<|endoftext|>"}
+{"text": "### NOTE: [Install Linux on old laptop] ### SUMMARY: A technical task involving operating system installation.<|endoftext|>"}
+{"text": "### NOTE: [Call plumber for leak in kitchen] ### SUMMARY: A maintenance task to fix a plumbing issue.<|endoftext|>"}
+{"text": "### NOTE: [Hello] ### SUMMARY: A generic greeting or test note.<|endoftext|>"}
+{"text": "### NOTE: [Wikipedia entry: https://en.wikipedia.org/wiki/Earth] ### SUMMARY: An educational reference to a Wikipedia article about Earth.<|endoftext|>"}
+{"text": "### NOTE: [???] ### SUMMARY: A placeholder or confusing note requiring further clarification.<|endoftext|>"}
+{"text": "### NOTE: [Organize digital photos] ### SUMMARY: A digital maintenance task for file organization.<|endoftext|>"}

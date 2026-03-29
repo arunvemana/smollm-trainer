@@ -1,10 +1,19 @@
 import os
+import typer
 from pathlib import Path
 from dotenv import load_dotenv
 import gpu_acc_test
 from scripts.download_model import download_models
 from scripts.model_info import ModelInfo
+from scripts.dataset_parser import process_raw_data
+app = typer.Typer()
 
+@app.command("train-data")
+def generate_test_data():
+    """ To generate train and validate jsonl files"""
+    process_raw_data()
+
+@app.command("start")
 def run():
     load_dotenv()
     gpu_acc_test.gpu_cpu_time() # check having gpu or cpu

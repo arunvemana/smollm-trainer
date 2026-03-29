@@ -13,23 +13,39 @@ class RawData(TypedDict):
 workspace = "./workspace"
 
 
-def save_to_jsonl(data: list[str], output_filepath):
+def save_to_jsonl(data: list[str], output_filepath:Path):
     with open(output_filepath, "w", encoding="utf-8") as f:
         for entry in data:
-            f.write(json.dumps(entry) + '\n')
+            json_o = {"text":entry}
+            f.write(json.dumps(json_o,ensure_ascii=False) + '\n')
     print(f"Saved {len(data)} examples to {output_filepath}")
 
 
-def split_and_save(formatted_data: list[str], train_ration=0.9):
+def split_and_save(formatted_data: list[str], train_ration:float =0.9):
+    random.seed(40) # fix seed: reproducible split every run
     random.shuffle(formatted_data)
     split_index = int(len(formatted_data) * train_ration)
     train_data = formatted_data[:split_index]
     vali_data = formatted_data[split_index:]
+    print(f"Saving split (train={train_ration:.0%} / val = {1-train_ration:.0%}):")
     save_to_jsonl(train_data, Path(workspace) / "train.jsonl")
     save_to_jsonl(vali_data, Path(workspace) / "validation.jsonl")
 
+def training_data_format(item:RawData) -> str:
+    """
+    format of the training data
+    ### NOTE:[DATA] ### SUMMARY: .... <- generated text
+    <|endoftext|> is the EOS (end of sequence) token 
+    as we are using SLM generative which don't have EOS by default
+    """
+    return (
+            f"### NOTE: [{item['note'].strip()}]"
+            f"### SUMMARY: {item['summary'].strip()}"
+            f"<|endoftext|>"
+            )
+
 def check_consistency(raw_data:list[RawData]) -> bool:
-    seen_notes = {}
+    seen_notes:dict[str,str] = {}
     duplicates,inconsistencies = 0,0
     for item in raw_data:
         note = item['note'].strip().lower()
