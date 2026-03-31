@@ -1,4 +1,5 @@
-import json, os
+import json
+from scripts.config import setting
 from pathlib import Path
 from rich.console import Console
 from rich.table import Table
@@ -8,7 +9,7 @@ from transformers import AutoModelForCausalLM
 
 class ModelInfo:
     def __init__(self, model) -> None:
-        self.model_path = os.getenv("LOCAL_PATH")
+        self.model_path = setting.envpath.local_path
         self.model = model
         self.load_config()
 
