@@ -15,7 +15,7 @@ from transformers import (
     DataCollatorForLanguageModeling,
     EarlyStoppingCallback,
 )
-from peft import LoraConfig, get_peft_model, TaskType
+from peft import LoraConfig, PeftModel, get_peft_model, TaskType
 import torch
 from datasets import Dataset
 
@@ -65,7 +65,7 @@ class Train:
             return model
         raise Exception("Critical: Some issues with loading model")
 
-    def applying_lora(self):
+    def applying_lora(self) -> PeftModel:
         """
         Narrow fine tunning the slm,
         mainly concentrate on the q_proj and v_proj layers
@@ -81,6 +81,7 @@ class Train:
         )
         model = get_peft_model(self.load_model(), lora_config)
         model.print_trainable_parameters()
+        return model
 
     def text_tokens(self, texts: list[Json]) -> Dataset:
         """
@@ -88,7 +89,7 @@ class Train:
         """
         tokenized = self.tokenzier(
             texts,
-            truncate=True,
+            truncation=True,
             max_length=setting.train.max_length,
             padding="max_length",
         )
@@ -110,4 +111,53 @@ class Train:
     def run(self):
         train_dataset = self.text_tokens(self.train_lines)
         vali_dataset = self.text_tokens(self.vali_lines)
-        print(vali_dataset)
+        training_arguments = TrainingArguments(
+            output_dir=setting.envpath.output_dir,
+            num_train_epochs=setting.train.epochs,
+            per_device_train_batch_size=setting.train.batch_size,
+            per_device_eval_batch_size=setting.train.batch_size,
+            learning_rate=setting.train.learning_rate,
+            warmup_steps=10,
+            gradient_accumulation_steps=2,
+            weight_decay=0.01,
+            eval_strategy="epoch",
+            save_strategy="epoch",
+            load_best_model_at_end=True,
+            metric_for_best_model="eval_loss",
+            greater_is_better=False,
+            logging_steps=5,
+            fp16=torch.cuda.is_available(),
+            report_to="none",
+            remove_unused_columns=False,
+        )
+        early_stopping = EarlyStoppingCallback(early_stopping_patience=3)
+        train_model = self.applying_lora()
+        trainer = Trainer(
+            model=train_model,
+            args=training_arguments,
+            train_dataset=train_dataset,
+            eval_dataset=vali_dataset,
+            data_collator=DataCollatorForLanguageModeling(self.tokenzier, mlm=False),
+            callbacks=[early_stopping],
+        )
+        trainer.train()
+        # after training merge the weights
+        assert isinstance(trainer.model, PeftModel)
+        merged = trainer.model.merge_and_unload()
+        merged.save_pretrained(setting.envpath.output_dir)
+        self.tokenzier.save_pretrained(setting.envpath.output_dir)
+        print(
+            f"trained model saved into the {setting.envpath.output_dir.absolute} path"
+        )
+        print(f"Delete the model with :rm -rf <path>")
+
+        log_path = setting.envpath.workspace / "training_log.json"
+        logs = [
+            entry
+            for entry in trainer.state.log_history
+            if "loss" in entry or "eval_loss" in entry
+        ]
+        with open(log_path, "w") as f:
+            json.dump(logs, f, indent=2)
+
+        print("log was saved")
