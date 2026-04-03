@@ -1,8 +1,6 @@
-from os import truncate
 from pydantic import BaseModel, Field
 from pydantic.types import Json
 from transformers.models.gpt2.tokenization_gpt2 import GPT2Tokenizer
-from transformers.pipelines.base import load_model
 from scripts.config import setting
 from pathlib import Path
 import json
@@ -100,11 +98,18 @@ class Train:
             print(f"{truncated} sample exceed than {setting.train.max_length}")
         else:
             print("all sample are fitted in the max_length")
+        input_id_ = tokenized["input_ids"]
+        attention_mask_ = tokenized["attention_mask"]
+        # labels_ = [
+        #  [tid if mask == 1 else -100 for tid, mask in zip(ids, attn)]
+        # for ids, attn in zip(input_id_, attention_mask_)
+        # ]
         return Dataset.from_dict(
             {
                 "input_ids": tokenized["input_ids"],
                 "attention_mask": tokenized["attention_mask"],
-                "labels": tokenized["input_ids"],
+                # "labels": labels_,
+                "labels": tokenized["attention_mask"],
             }
         )
 
@@ -117,8 +122,9 @@ class Train:
             per_device_train_batch_size=setting.train.batch_size,
             per_device_eval_batch_size=setting.train.batch_size,
             learning_rate=setting.train.learning_rate,
+            lr_scheduler_type="cosine",
             warmup_steps=10,
-            gradient_accumulation_steps=2,
+            gradient_accumulation_steps=1,
             weight_decay=0.01,
             eval_strategy="epoch",
             save_strategy="epoch",
@@ -129,6 +135,7 @@ class Train:
             fp16=torch.cuda.is_available(),
             report_to="none",
             remove_unused_columns=False,
+            dataloader_pin_memory=False,
         )
         early_stopping = EarlyStoppingCallback(early_stopping_patience=3)
         train_model = self.applying_lora()
